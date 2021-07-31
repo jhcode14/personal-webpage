@@ -1,0 +1,25 @@
+.nav {
+    height: 50px;
+    padding: 0 px;
+    background: #7800ff;
+    color: #87FF00;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav ul li a {
+    margin: 5px 15px;
+  }
+
+  .logo {
+    height: 0 1em;
+    margin-left: 0 rem;
+  }
