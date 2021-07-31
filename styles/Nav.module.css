@@ -1,11 +1,12 @@
 .nav {
   height: 50px;
+  width: 100%;
   background: #5d5d5d;
   color: #eaeaea;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  z-index: 1;
+  position: fixed;
 }
 
 .nav ul {
@@ -13,12 +14,10 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  z-index: 1;
 }
 
 .nav ul li a {
   margin: 5px 15px;
-  z-index: 1;
 }
 
 .logo {
