@@ -1,12 +1,12 @@
 .container {
-    min-height: 100vh;
-    padding: 0 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-  }
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
 
 .main {
   padding: 5rem 0;
@@ -15,5 +15,17 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-size:1.25rem;
+  font-size: 1.25rem;
+}
+
+.bgWrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.bgText {
+  z-index: 0;
 }

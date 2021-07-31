@@ -14,3 +14,38 @@ a {
 * {
   box-sizing: border-box;
 }
+
+footer {
+  color: black;
+  font-family: "Overpass", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  padding: 16px;
+  box-sizing: content-box;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 8px;
+  box-sizing: content-box;
+}
+
+footer div a {
+  margin: 0 12px;
+}
+
+footer div a:hover {
+  opacity: 0.7;
+}
+
+footer div a img {
+  width: 24px;
+  height: 24px;
+}
