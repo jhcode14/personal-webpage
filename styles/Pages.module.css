@@ -1,0 +1,25 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 0rem;
+}
+
+.grid h1 {
+  padding-left: 1em;
+  width: 100%;
+}
+
+.space {
+  width: 45%;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

@@ -1,21 +1,26 @@
-import Link from "next/link";
-import Image from "next/image";
 import navStyles from "../styles/Nav.module.css";
 
 const Nav = () => {
   return (
     <nav className={navStyles.nav}>
-      <ul>
-        <span className={navStyles.logo}>
-          <Image src="/favicon.ico" alt="icon" width={40} height={40} />
-        </span>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-      </ul>
+      <div className={navStyles.grid}>
+        <a href="/" className={navStyles.navBrandCard}>
+          <img src="/favicon.ico" alt="icon" />
+          <span className={navStyles.navBrand}>Jason Hsu</span>
+        </a>
+        <a href="/about" className={navStyles.card}>
+          About
+        </a>
+        <a href="/projects" className={navStyles.card}>
+          Projects
+        </a>
+        <a href="/cv" className={navStyles.card}>
+          Resume
+        </a>
+        <a href="/blog" className={navStyles.card}>
+          Blog
+        </a>
+      </div>
     </nav>
   );
 };

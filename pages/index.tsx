@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -14,44 +13,34 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <span>I'm Jason Hsu</span>
         </h1>
-
         <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
+          {" "}
+          A UCSD Machine Learning Student / Aspire Software Engineer
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/about" className={styles.card}>
+            <h2>About Me &rarr;</h2>
+            <p>An introduction about myself.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/projects" className={styles.card}>
+            <h2>Coding Projects &rarr;</h2>
+            <p>Find out what I have made so far!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/cv" className={styles.card}>
+            <h2>Resume &rarr;</h2>
+            <p>Take a look at what I have on my resume.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="/blog" className={styles.card}>
+            <h2>Blog &rarr;</h2>
+            <p>Here is what I have been doing beside working.</p>
           </a>
         </div>
       </main>

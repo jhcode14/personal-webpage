@@ -1,11 +1,11 @@
 import Head from "next/head";
 import styles from "../styles/Pages.module.css";
 
-const about = () => {
+const projects = () => {
   return (
     <div>
       <Head>
-        <title>About Me</title>
+        <title>Projects</title>
         <meta
           name="keywords"
           content="jason hsu, 
@@ -13,7 +13,7 @@ const about = () => {
         />
       </Head>
       <div className={styles.grid}>
-        <h1>About Me</h1>
+        <h1>Projects</h1>
         <img
           className={styles.space}
           src="/mypic.jpg"
@@ -46,4 +46,4 @@ const about = () => {
     </div>
   );
 };
-export default about;
+export default projects;
