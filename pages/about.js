@@ -16,7 +16,7 @@ const about = () => {
         <h1>About Me</h1>
         <img
           className={styles.space}
-          src="/mypic.jpg"
+          src="/mypic2.jpg"
           alt="Picture of Author"
         />
 
@@ -24,16 +24,16 @@ const about = () => {
           {" "}
           Hi, I'm Jason, I am currently studying at UC San Diego pursuing B.S.
           in Machine Learning and a minor in Computer Science. My primary
-          interest currently is to pursue a Software Engineering Internship, as
-          I aspire to be one in the future.
+          interest currently is to pursue a Software Development Internship, as
+          I aspire to be a software engineer in the future.
           <br />
           <br />
           Before transferring to UC San Diego, I studied at UC Riverside, where
           I got to experience medical science, research, and biomedical
           engineering. Through working at a emergency department, researching at
           UCR School of Medicine stroke lab, and volunteering at the local
-          community. I learned great teamwork, time management, and problem
-          dealing skills.
+          community. I learned to manage time wisely, deal with unexpected problems
+          and be a team oriented person.
           <br />
           <br />
           In my spare time, I enjoy playing guitar and online games with

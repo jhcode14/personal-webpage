@@ -1,3 +1,22 @@
+FOR people who clowned the project:
+Requirements:
+Yarn or npm, node
+
+Setup:
+```bash
+npm install
+# or 
+yarn install
+```
+
+Get the website running:
+```bash
+npm run dev
+# or
+yarn run dev
+```
+
+------------------------------------
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
