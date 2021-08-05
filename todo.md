@@ -9,3 +9,9 @@ NavBar Color
 
 Sample Personal Profolio
 //https://www.nathanielqin.com/about.html
+
+Website remodel when on smaller screen (i.e. phone)
+Resume link not working
+Project
+Blog
+Sentence Check

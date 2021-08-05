@@ -8,7 +8,7 @@ const projects = () => {
         <title>Projects</title>
         <meta
           name="keywords"
-          content="jason hsu, 
+          content="jason hsu projects, 
         ucsd, software engineer, programming"
         />
       </Head>
