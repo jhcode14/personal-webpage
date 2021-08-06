@@ -44,7 +44,6 @@ const projects = () => {
           This project is a local Python-based software that allows users to search through a
           Costco web page category and record the price. Shoppers can compare prices with their
           saved price histories to compare if Costco currently holds the best price for the item.
-
         </p>
       </div>
     </div>
