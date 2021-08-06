@@ -35,12 +35,12 @@ export default function Home() {
 
           <a href="/cv" className={styles.card}>
             <h2>Resume &rarr;</h2>
-            <p>Take a look at what I have on my resume.</p>
+            <p>Take a look of my resume.</p>
           </a>
 
           <a href="/blog" className={styles.card}>
             <h2>Blog &rarr;</h2>
-            <p>Here is what I have been doing beside working.</p>
+            <p>Checkout my life beside working!</p>
           </a>
         </div>
       </main>
