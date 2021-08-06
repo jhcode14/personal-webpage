@@ -15,7 +15,7 @@ const cv = () => {
                 <h1>Resume</h1>
                 <p className={styles.bigSpace}>
                     I am currently an undergraduate studying at UC San Diego. However, I am looking for a Software Development related internship opportunity.
-	                I will be pursuing a Software Engineer position when I graduate in Summer 2023. Feel free to take a look at my resume below!
+	            I will be pursuing a Software Engineer position when I graduate in Summer 2023. Feel free to take a look at my resume below!
                 </p>
                 <a herf="/Jason_Hsu_Resume.pdf" className={styles.bigSpace}>
                     <p>Click Here</p>
