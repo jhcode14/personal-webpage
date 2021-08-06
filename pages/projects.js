@@ -22,25 +22,20 @@ const projects = () => {
 
         <p className={styles.space}>
           {" "}
-          Hi, I'm Jason, I am currently studying at UC San Diego pursuing B.S.
-          in Machine Learning and a minor in Computer Science. My primary
-          interest currently is to pursue a Software Engineering Internship, as
-          I aspire to be one in the future.
+          ---
+          Chicken_Bake [In Progress]
+          This project is the continuation of the Costco_Item Tracker project I have made. The project aims to become the camelcamelcamel.com for Costco. Because similar to amazon.com, Costco also does not always show price changes of items they are selling. The project's goal is to let shoppers search Costco items on this webpage and see the current price and the price fluctuation history to determine if the current time is the best time to purchase the thing at Costco.
           <br />
           <br />
-          Before transferring to UC San Diego, I studied at UC Riverside, where
-          I got to experience medical science, research, and biomedical
-          engineering. Through working at a emergency department, researching at
-          UCR School of Medicine stroke lab, and volunteering at the local
-          community. I learned great teamwork, time management, and problem
-          dealing skills.
+          https://github.com/jhcode14/personal-webpage
+          Personal Webpage
+          This project is this website that you are on right now! This website is built with JavaScript, TypeScript, CSS, HTML, Next.JS, React.JS. Feel free to look at how I built it with the GitHub link above!
           <br />
           <br />
-          In my spare time, I enjoy playing guitar and online games with
-          friends. I also enjoy photography and running (I look forward to run a
-          half-marathon in the near future!). I like to try new food and meet
-          new people so feel free to reach out! You can reach me through the
-          social-websites below!
+          https://github.com/jhcode14/Costco_Item_Tracker
+          Costco_Item_Tracker
+          This project is a local Python-based software that allows users to search through a Costco web page category and record the price. Shoppers can compare prices with their saved price histories to compare if Costco currently holds the best price for the item.
+
         </p>
       </div>
     </div>
