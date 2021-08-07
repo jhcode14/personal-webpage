@@ -14,37 +14,49 @@ const projects = () => {
       </Head>
       <div className={styles.grid}>
         <h1>Projects</h1>
-        <img
-          className={styles.space}
-          src="/mypic.jpg"
-          alt="Picture of Author"
-        />
+        <div className={styles.bigSpace}>
+          <h3>Personal Webpage</h3>
+          <p>
+            This project is this website that you are on right now! Feel free to look at how I
+            built it with the GitHub link above!
+            <br />
+            <br />
+            Tools: JavaScript/CSS/HTML, TypeScript, React.JS, Next.JS
+          </p>
+        </div>
 
-        <p className={styles.space}>
-          {" "}
-          ---
-          Chicken_Bake [In Progress]
-          This project is the continuation of the Costco_Item Tracker project I have made.
-          The project aims to become the camelcamelcamel.com for Costco. Because similar to
-          amazon.com, Costco also does not always show price changes of items they are
-          selling. The project's goal is to let shoppers search Costco items on this webpage
-          and see the current price and the price fluctuation history to determine if the
-          current time is the best time to purchase the thing at Costco.
-          <br />
-          <br />
-          https://github.com/jhcode14/personal-webpage
-          Personal Webpage
-          This project is this website that you are on right now! This website is built with
-          JavaScript, TypeScript, CSS, HTML, Next.JS, React.JS. Feel free to look at how I
-          built it with the GitHub link above!
-          <br />
-          <br />
-          https://github.com/jhcode14/Costco_Item_Tracker
-          Costco_Item_Tracker
-          This project is a local Python-based software that allows users to search through a
-          Costco web page category and record the price. Shoppers can compare prices with their
-          saved price histories to compare if Costco currently holds the best price for the item.
-        </p>
+        <a href="https://github.com/jhcode14/personal-webpage" className={styles.card} target="_blank">
+          View project on Github
+        </a>
+
+        <div className={styles.bigSpace}>
+          <h3>Costco Item Tracker</h3>
+          <p>
+            This project is a local Python-based software that offer users a new way to shopping. Where
+            the shoppers can record Costco item catagories and compare prices with saved history to
+            determine if the current price is optimal.
+            <br />
+            <br />
+            Tools: Python, Tkinter
+          </p>
+        </div>
+
+        <a href="https://github.com/jhcode14/Costco_Item_Tracker" className={styles.card} target="_blank">
+          View Project on Github
+        </a>
+
+        <div className={styles.bigSpace}>
+          <h3>Chicken Bake [In Progress]</h3>
+          <p>
+            This project is the continuation and improved version of Costco Item Tracker.
+            The project aims to become the camelcamelcamel.com for Costco Wholesale. Where shoppers can
+            search desired Costco items on this website and see the current price and
+            historical price fluctuation for the item.
+            <br />
+            <br />
+            Tools: Python, JavaScript/CSS/HTML, TypeScript, React.JS, Next.JS, and more
+          </p>
+        </div>
       </div>
     </div>
   );
