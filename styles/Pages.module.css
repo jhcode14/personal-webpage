@@ -22,10 +22,6 @@
   margin: 0 4.5% 0;
 }
 
-.picture{
-  justify-content: center;
-}
-
 .card {
   margin: 0.3rem 0.5rem 1.5rem;
   padding: 0.70rem;
@@ -42,9 +38,9 @@
   background-color: gray;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 800px){
+  .space {
+    width:90%;
+    margin: 0 4.5% 2%;
   }
 }

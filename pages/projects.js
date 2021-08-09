@@ -17,7 +17,7 @@ const projects = () => {
         <div className={styles.bigSpace}>
           <h3>Personal Webpage</h3>
           <p>
-            This project is this website that you are on right now! Feel free to look at how I
+            This project is this website that you are visiting right now! Feel free to look at how I
             built it with the GitHub link above!
             <br />
             <br />

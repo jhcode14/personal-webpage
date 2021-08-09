@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
         <p className={styles.description}>
           {" "}
-          A UCSD Machine Learning Student / Aspire Software Engineer
+          A UCSD Machine Learning Student / Aspired Software Engineer
         </p>
 
         <div className={styles.grid}>

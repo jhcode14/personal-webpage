@@ -61,13 +61,6 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
 .title a,
 .title span {
   text-decoration: none;
@@ -93,4 +86,25 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+
+@media (max-width: 1000px){
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card {
+    padding:3.5vw;
+  }
+  .title {
+    font-size: 6.4vw;
+  }
+  .description,
+  .card h2{
+    font-size: 2.4vw;
+  }
+  .card p {
+    font-size: 2vw;
+  }
 }
