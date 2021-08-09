@@ -38,7 +38,10 @@
   background-color: gray;
 }
 
-@media (max-width: 800px){
+@media (max-width: 500px){
+  .grid {
+    font-size: 4.6vw;
+  }
   .space {
     width:90%;
     margin: 0 4.5% 2%;

@@ -29,9 +29,8 @@ const blogs = () => {
                         I started to fall in love with photography during my freshman year of my college.
                         Sometimes when I walk out of the building after a class or a long period of studying,
                         I looked up at the beautiful sky and realized how I took the beauty of California for
-                        granted. With the help of my roommate Eric, who introduced me to Digital Single-Lens
-                        Reflex Cameras (DSLR), I started to develop a passion for taking pictures and
-                        exploring the beauty of nature.
+                        granted. With the help of my roommate Eric, who introduced me to DSLR Cameras, I
+                        started to develop a passion for taking pictures and exploring the beauty of nature.
                     </p>
                 </div>
 
