@@ -16,7 +16,7 @@ const about = () => {
         <h1>About Me</h1>
         <img
           className={styles.space}
-          src="/mypic2.jpg"
+          src="/personal-webpage/mypic2.jpg"
           alt="Picture of Author"
         />
 

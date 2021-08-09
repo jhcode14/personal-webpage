@@ -15,7 +15,7 @@ const blogs = () => {
                 <h1>Blog</h1>
                 <img
                     className={styles.bigSpace}
-                    src="/taipei.jpg"
+                    src="/personal-webpage/taipei.jpg"
                     alt="taipei, Jason Hsu"
                 />
                 <div className={styles.bigSpace}>
