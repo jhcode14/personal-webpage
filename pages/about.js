@@ -22,16 +22,16 @@ const about = () => {
 
         <p className={styles.space}>
           {" "}
-          Hi, I'm Jason. I am currently studying at UC San Diego, pursuing B.S.
+          Hi, I&apos;m Jason. I am currently studying at UC San Diego, pursuing B.S.
           in Machine Learning and a minor in Computer Science. My primary
           interest currently is to pursue a Software Development Internship, as
           I aspire to be a software engineer in the future.
           <br />
           <br />
           Before transferring to UC San Diego, I studied at UC Riverside. Through
-          working at an emergency department, researching at UCR School of 
+          working at an emergency department, researching at UCR School of
           Medicine stroke lab, and volunteering at the local community. I learned
-          to manage time wisely, deal with unexpected problems and be a 
+          to manage time wisely, deal with unexpected problems and be a
           team-oriented person.
           <br />
           <br />

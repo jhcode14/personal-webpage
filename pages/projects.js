@@ -25,7 +25,7 @@ const projects = () => {
           </p>
         </div>
 
-        <a href="https://github.com/jhcode14/personal-webpage" className={styles.card} target="_blank">
+        <a href="https://github.com/jhcode14/personal-webpage" className={styles.card} rel="noreferrer" target="_blank">
           View project on Github
         </a>
 
@@ -41,7 +41,7 @@ const projects = () => {
           </p>
         </div>
 
-        <a href="https://github.com/jhcode14/Costco_Item_Tracker" className={styles.card} target="_blank">
+        <a href="https://github.com/jhcode14/Costco_Item_Tracker" className={styles.card} rel="noreferrer" target="_blank">
           View Project on Github
         </a>
 

@@ -5,7 +5,7 @@ const blogs = () => {
     return (
         <div>
             <Head>
-                <title>Jason's Blog</title>
+                <title>Jason&apos;s Blog</title>
                 <meta
                     name="keywords"
                     content="jason hsu blog, taipe, photography"
@@ -20,7 +20,7 @@ const blogs = () => {
                 />
                 <div className={styles.bigSpace}>
                     <p>
-                        Hey there! Thanks for stopping by my little blog post! I'd like to share this photo
+                        Hey there! Thanks for stopping by my little blog post! I&apos;d like to share this photo
                         I took back when I was traveling in Taiwan in a city called Taipei. Taipei is the
                         capital of Taiwan, where the traffic and the streets are always busy. By taking this
                         picture, I hope you can see the essence and the beauty of Taiwan.

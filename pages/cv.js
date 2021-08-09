@@ -5,7 +5,7 @@ const cv = () => {
     return (
         <div>
             <Head>
-                <title>Jason's Resume</title>
+                <title>Jason&apos;s Resume</title>
                 <meta
                     name="keywords"
                     content="jason hsu resume, ucsd, software engineer, internship"
