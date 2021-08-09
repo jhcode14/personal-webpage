@@ -1,5 +1,5 @@
 .nav {
-  height: 5.5em;
+  height: 5em;
   width: 100%;
   background: #555555;
   color: #eaeaea;
@@ -17,9 +17,15 @@
   overflow: auto;
 }
 
+.nav img {
+  width: 3em;
+  height: 3em;
+  margin-left: 1em;
+}
+
 .card {
   margin: 0 0.5rem 0;
-  padding: 1.5rem;
+  padding: 1.25rem;
   text-align: left;
   color: inherit;
   text-decoration: none;

@@ -1,6 +1,5 @@
 import navStyles from "../styles/Nav.module.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const Nav = () => {
   return (
@@ -9,12 +8,7 @@ const Nav = () => {
         <div className={navStyles.navBrandCard}>
           <Link href="/">
             <div>
-              <Image
-                src="/favicon.ico"
-                alt="icon"
-                width={49}
-                height={49}
-              />
+              <img src="/favicon.ico" alt="icon" />
               <span className={navStyles.navBrand}>Jason Hsu</span>
             </div>
           </Link>
