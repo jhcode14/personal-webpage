@@ -8,7 +8,7 @@ const Nav = () => {
         <div className={navStyles.navBrandCard}>
           <Link href="/">
             <div>
-              <img src="/favicon.ico" alt="icon" />
+              <img src="/personal-webpage/favicon.ico" alt="icon" />
               <span className={navStyles.navBrand}>Jason Hsu</span>
             </div>
           </Link>

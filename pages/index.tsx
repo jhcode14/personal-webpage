@@ -24,25 +24,25 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/personal-webpage/about">
+          <Link href="/about">
             <div className={styles.card}>
               <h2>About Me &rarr;</h2>
               <p>An introduction about myself.</p>
             </div>
           </Link>
-          <Link href="/personal-webpage/projects" >
+          <Link href="/projects" >
             <div className={styles.card}>
               <h2>Coding Projects &rarr;</h2>
               <p>Find out what I have made so far!</p>
             </div>
           </Link>
-          <Link href="/personal-webpage/cv">
+          <Link href="/cv">
             <div className={styles.card}>
               <h2>Resume &rarr;</h2>
               <p>Take a look of my resume.</p>
             </div>
           </Link>
-          <Link href="/personal-webpage/blog">
+          <Link href="/blog">
             <div className={styles.card}>
               <h2>Blog &rarr;</h2>
               <p>Checkout my life beside working!</p>
