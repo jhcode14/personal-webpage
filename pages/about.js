@@ -23,9 +23,8 @@ const about = () => {
         <p className={styles.space}>
           {" "}
           Hi, I&apos;m Jason. I am currently studying at UC San Diego, pursuing B.S.
-          in Machine Learning and a minor in Computer Science. My primary
-          interest currently is to pursue a Software Development Internship, as
-          I aspire to be a software engineer in the future.
+          in Machine Learning and a minor in Computer Science. I am currently a full-time
+          SWE Intern working at Viasat for the Summer of 2022. 
           <br />
           <br />
           Before transferring to UC San Diego, I studied at UC Riverside. Through

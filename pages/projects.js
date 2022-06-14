@@ -14,6 +14,42 @@ const projects = () => {
       </Head>
       <div className={styles.grid}>
         <h1>Projects</h1>
+
+        <div className={styles.bigSpace}>
+          <h3>Heart Disease Machine Learning Detection</h3>
+          <p>
+          This project is part of UCSD's Spring 2022 COGS 118A Supervised Machine Learning Course. I worked with 4 other members
+          to search for ways to better understand the correlation between heart disease and common traits and find ways to predict
+          if a patient potentially will have risks of having heart disease or not. Methods include Data Cleaning, EDA, 
+          Logistic Regression, K-Nearest Neighbors, Neuro Network, Random Forest, Oversampling, Data Standardization, and Cross Validation.
+            <br />
+            <br />
+            Tools: Python, Jupyter Notebook, Scikit-learn, Numpy, Pandas, Matplotlib
+          </p>
+        </div>
+
+        <a href="https://github.com/jhcode14/Heart_Disease_ML_Detection" className={styles.card} rel="noreferrer" target="_blank">
+          View project on Github
+        </a>
+
+
+        <div className={styles.bigSpace}>
+          <h3>Type 1 Diabetic Care Directive</h3>
+          <p>
+          This project is part of UCSD Diabetes Design Initiative and UCSD Design Lab's Type 1 Diabetic Care Directive's 
+          Fall 2021 Sprint. As a frontend developer, I worked with other UCSD Designers and Developers to create a website
+          prototype for Type 1 Diabetic Patients to easily provide lifesaving informations to medical team during life-threatening
+          emergency.
+            <br />
+            <br />
+            Tools: JavaScript/CSS/HTML, React.JS, Antd
+          </p>
+        </div>
+
+        <a href="https://github.com/jhcode14/t1d-fall2021" className={styles.card} rel="noreferrer" target="_blank">
+          View project on Github
+        </a>
+
         <div className={styles.bigSpace}>
           <h3>Personal Webpage</h3>
           <p>
@@ -45,18 +81,7 @@ const projects = () => {
           View Project on Github
         </a>
 
-        <div className={styles.bigSpace}>
-          <h3>Chicken Bake [In Progress]</h3>
-          <p>
-            This project is the continuation and improved version of Costco Item Tracker.
-            The project aims to become the camelcamelcamel.com for Costco Wholesale. Where shoppers can
-            search desired Costco items on this website and see the current price and
-            historical price fluctuation for the item.
-            <br />
-            <br />
-            Tools: Python, JavaScript/CSS/HTML, TypeScript, React.JS, Next.JS, and more
-          </p>
-        </div>
+        
       </div>
     </div>
   );

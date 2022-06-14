@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Component {...pageProps} />
       <footer>
-        <p>&copy; Jason Hsu, 2021</p>
+        <p>&copy; Jason Hsu, 2022</p>
         <div>
           <a href="https://www.instagram.com/jhsu_14/" rel="noreferrer" target="_blank">
             <img src="/personal-webpage/instagram.svg" alt="instagram" />
