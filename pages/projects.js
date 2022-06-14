@@ -18,7 +18,7 @@ const projects = () => {
         <div className={styles.bigSpace}>
           <h3>Heart Disease Machine Learning Detection</h3>
           <p>
-          This project is part of UCSD's Spring 2022 COGS 118A Supervised Machine Learning Course. I worked with 4 other members
+          This project is part of UCSD&aposs Spring 2022 COGS 118A Supervised Machine Learning Course. I worked with 4 other members
           to search for ways to better understand the correlation between heart disease and common traits and find ways to predict
           if a patient potentially will have risks of having heart disease or not. Methods include Data Cleaning, EDA, 
           Logistic Regression, K-Nearest Neighbors, Neuro Network, Random Forest, Oversampling, Data Standardization, and Cross Validation.
@@ -36,7 +36,7 @@ const projects = () => {
         <div className={styles.bigSpace}>
           <h3>Type 1 Diabetic Care Directive</h3>
           <p>
-          This project is part of UCSD Diabetes Design Initiative and UCSD Design Lab's Type 1 Diabetic Care Directive's 
+          This project is part of UCSD Diabetes Design Initiative and UCSD Design Lab&aposs Type 1 Diabetic Care Directive&aposs 
           Fall 2021 Sprint. As a frontend developer, I worked with other UCSD Designers and Developers to create a website
           prototype for Type 1 Diabetic Patients to easily provide lifesaving informations to medical team during life-threatening
           emergency.
